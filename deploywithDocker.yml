@@ -6,7 +6,7 @@
   tasks:
       
     - name: login to jfrog
-      shell: docker login -u kavitha -p Kavitha31 artifact31.jfrog.io    
+      shell: docker login -u gadhar.kavitha@gmail.com -p Kavitha31 artifact31.jfrog.io    
     
     - name: pull an image
       shell: docker pull artifact31.jfrog.io/test-docker-local/war_on_container:v{{ BUILD_NUMBER }}
