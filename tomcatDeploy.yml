@@ -14,9 +14,9 @@
 
   - name: download war file
     ansible.builtin.get_url:
-      url: https://artifact31.jfrog.io/artifactory/test-generic-local/webapp-{{ build_number }}.war
+      url: https://artifact31.jfrog.io/artifactory/warupload-generic-local/webapp-{{ build_number }}.war
       dest: /home/tomcat/sourcefile/webapp.war
-      username: kavitha
+      username: gadhar.kavitha@gmail.com
       password: Kavitha31
 
   - name: create directory with a date in name
