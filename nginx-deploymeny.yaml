@@ -32,6 +32,6 @@ spec:
     spec:
       containers:
       - name: devopsapp
-        image: artifact31.jfrog.io/dockertest-docker-local/k8_on_container:v{{ BUILD_NUMBER }}
+        image: artifact31.jfrog.io/docker-demo/k8s_cont/:v{{ BUILD_NUMBER }}
         ports:
         - containerPort: 8080
