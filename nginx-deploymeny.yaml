@@ -32,6 +32,6 @@ spec:
     spec:
       containers:
       - name: devopsapp
-        image: artifact31.jfrog.io/jfrog-dr/k8s_cont:21
+        image: artifact31.jfrog.io/jfrog-dr//k8s_cont/v22
         ports:
         - containerPort: 8080
