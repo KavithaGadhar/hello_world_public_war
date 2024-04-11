@@ -14,7 +14,7 @@
 
   - name: download war file
     ansible.builtin.get_url:
-      url: https://artifact31.jfrog.io/artifactory/examp/webapp-{{ build_number }}.war
+      url: https://artifact31.jfrog.io/artifactory/warupload-new/webapp-{{ build_number }}.war
       dest: /home/tomcat/sourcefile/webapp.war
       username: gadhar.kavitha@gmail.com
       password: Kavitha31
